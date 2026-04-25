@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Página institucional Sweet Planet">
+    <meta name="keywords" content="Doces importados">
+    <meta name="author" content="Ana Livia Moises, Beatriz Barbosa e Diego Almeida">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/galeria.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Sweet Planet</title>
+</head>
+
+<body class="poppins">
+    <section class="barra-superior">
+        <p> Descubra os sabores do mundo! </p>
+    </section>
+    <main class="principal">
+        <header class="cabecalho">
+            <div class="container-fluid">
+                <div class="row ">
+                    <div class="col col-md-3">
+                        <section class="area-logo">
+                            <div class="area-logo-item"><img src="assets/img/logo.png" alt="Logotipo da Sweet Planet">
+                            </div>
+                        </section>
+                    </div>
+                    <div class="col col-md-6">
+                        <div class="barra-pesquisa">
+                            <button type="submit">
+                                <img src="assets/img/lupa.png" alt="Buscar" class="icone-lupa">
+                            </button>
+                            <input type="text">
+
+                        </div>
+
+                        <nav class="navbar navbar-expand-lg navbar-light texto-branco ">
+                            <div class="container-md">
+                                <a class="navbar-brand" href="index.html">Home</a>
+                                <a class="navbar-brand" href="servicos.html">serviços</a>
+                                <a class="navbar-brand" href="galeria.html">galeria</a>
+                                <a class="navbar-brand" href="contato.html">contato</a>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="col col-md-3">
+                        <div class="icon">
+                            <ul class="">
+                                <li><img src="assets/img/icons/zap.png" alt="whatsapp" /></li>
+                                <li><img src="assets/img/icons/insta.png" alt="instagram" /></li>
+                                <li><img src="assets/img/icons/facebook.png" alt="instagram" /></li>
+                                <li><img src="assets/img/icons/tiktok.png" alt="instagram" /></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <div class="caixa-titulo">
+            <h1 class="titulo-galeria">GALERIA</h1>
+        </div>
+
+        <div class="tutulo-superior">
+            <h1 class="tutulo-superior">FEEDBACK DOS CLIENTES</h1>
+            <h1><img src="" alt=""></h1>
+        </div>
+
+        <div class="alinhar">
+            <div class="container-area-feedback">
+                <div class="container-fluid">
+                    <div class="row no-gutters">
+                        <div class="main-carousel">
+                            <div class="container-feedback">
+                                <div class="cell-img">
+                                    <img src="assets/img/clientes/1.png" alt="">
+                                </div>
+                                <div class="texto-container">
+                                    <p class="texto-container">"Os produtos da Sweet Planet são simplesmente
+                                        excepcionais.
+                                        A frescura e o sabor dos doces importados elevam a
+                                        experiência gastronômica dos meus clientes. A logística e o suporte são também
+                                        dignos de nota." </p>
+                                </div>
+
+                            </div>
+                            <div class="container-feedback">
+                                <div class="cell-img">
+                                    <img src="assets/img/clientes/5.png" alt="">
+                                </div>
+                                <div class="texto-container">
+                                    <p class="texto-container">"Os produtos da Sweet Planet são simplesmente
+                                        excepcionais.
+                                        A frescura e o sabor dos doces importados elevam a
+                                        experiência gastronômica dos meus clientes. A logística e o suporte são também
+                                        dignos de nota." </p>
+                                </div>
+
+                            </div>
+                            <div class="container-feedback">
+                                <div class="cell-img">
+                                    <img src="assets/img/clientes/2.png" alt="">
+                                </div>
+                                <div class="texto-container">
+                                    <p class="texto-container">"A Sweet Planet tem sido uma parceira incrível para os
+                                        eventos que organizo.
+                                        A seleção de doces é incrível e sempre chega a tempo.
+                                        O feedback dos meus clientes é sempre positivo, graças a eles." </p>
+                                </div>
+
+                            </div>
+                            <div class="container-feedback">
+                                <div class="cell-img">
+                                    <img src="assets/img/clientes/3.png" alt="">
+                                </div>
+                                <div class="texto-container">
+                                    <p class="texto-container">"Desde que comecei a trabalhar com a Sweet Planet,
+                                        notei uma grande diferença na qualidade dos doces oferecidos na minha loja.
+                                        A variedade é excelente e a equipe é extremamente profissional. Estou muito
+                                        satisfeito!" </p>
+                                </div>
+
+                            </div>
+                            <div class="container-feedback">
+                                <div class="cell-img">
+                                    <img src="assets/img/clientes/4.png" alt="">
+                                </div>
+                                <div class="texto-container">
+                                    <p class="texto-container">"A Sweet Planet é a minha principal
+                                        fornecedora de doces importados e sempre me impressiona com a qualidade dos
+                                        produtos.
+                                        A entrega é rápida e o atendimento ao cliente é impecável. Recomendadíssimo!"
+                                    </p>
+                                </div>
+
+                            </div>
+
+
+
+
+                        </div>
+
+                        <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+                        <script type="text/javascript">
+                            //seleciona o elemento q tenha essa classe - flickity inicializa o carrossel em cima daquele elemento
+                            $('.main-carousel').flickity({
+                                // options
+                                cellAlign: 'left',//slides alinhados à esquerda quando visivel
+                                freeScroll: true //permite arrastar o carrosel
+                            });
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="arrumar-texto">
+            <h1>NOSSOS EVENTOS</h1>
+        </div>
+
+        <div class="organizar-texto">
+            <h2>FESTIVAL INTERNACIONAL DE DOCES</h2>
+            
+            <div class="texto-certo">
+                <div class="texto-pequeno">
+                    <h5>Um evento de três dias celebrando a diversidade de doces internacionais que a Sweet Planet importa.</h5>
+                </div>
+            </div>
+        </div>
+            
+
+        
+    <div class="alinhar-a-tabela">
+        <div class="quadrado-grandao">
+
+            <div class="imagem-grande1">
+                <img src="assets/img/trabalhadores/Captura de tela 2024-11-06 152531.png" alt="">
+
+            </div>
+
+            
+            <div class="coluna-imagens1">
+                <img class="img-galeria"  src="assets/img/trabalhadores/Captura de tela 2024-11-04 114839.png" alt="">
+                
+                <img class="img-galeria" src="assets/img/trabalhadores/Captura de tela 2024-11-04 115534.png" alt="">
+
+            </div>
+
+            <div class="coluna-imagens2">
+                <img class="img-galeria" src="assets/img/trabalhadores/Captura de tela 2024-11-04 085321.png" alt="">
+
+
+
+                <img class="img-galeria" src="assets/img/trabalhadores/Captura de tela 2024-11-04 085228.png" alt="">
+
+            </div>
+        
+        </div>
+    </div>
+
+    <div class="organizar-texto">
+        <h2>SEMANA DOS SABORES DO MUNDO</h2>
+        
+        <div class="texto-certo">
+            <div class="texto-pequeno">
+                <h5>Uma semana temática onde cada dia é dedicado a um país diferente,
+                    com promoções especiais, eventos de degustação e atividades culturais relacionadas aos doces de cada região.</h5>
+            </div>
+        </div>
+    </div>
+
+
+        
+    <div class="alinhar-a-tabela">
+        <div class="quadrado-grandao">
+
+            <div class="coluna-imagens1">
+                <img class="img-galeria"  src="assets/img/trabalhadores/Captura de tela 2024-11-27 142153.png" alt="foto das nossas novidades">
+                
+                <img class="img-galeria" src="assets/img/trabalhadores/Captura de tela 2024-11-27 142212.png" alt="foto sobre a empresa">
+
+            </div>
+
+
+
+
+            <div class="imagem-grande1">
+                <img src="assets/img/trabalhadores/Captura de tela 2024-11-27 143917.png" alt="imagen da semana tematica">
+
+            </div>
+
+            
+           
+
+            <div class="coluna-imagens2">
+                <img class="img-galeria" src="assets/img/trabalhadores/Captura de tela 2024-11-27 142226.png" alt="foto dos doces">
+
+
+
+                <img class="img-galeria" src="assets/img/trabalhadores/Captura de tela 2024-11-27 142237.png" alt="nossas iguarias">
+
+            </div>
+        
+        </div>
+    </div>
+        
+
+    <div class="organizar-texto">
+        <h2>NOITE DOS DOCES GORMET</h2>
+        
+        <div class="texto-certo">
+            <div class="texto-pequeno">
+                <h5>Um evento exclusivo para clientes VIP e parceiros comerciais, com uma apresentação de doces gourmet 
+                    e uma experiência sensorial única.</h5>
+            </div>
+        </div>
+    </div>
+
+
+        
+    <div class="alinhar-a-tabela">
+        <div class="quadrado-grandao">
+
+            <div class="coluna-imagens1">
+                <img class="img-galeria"  src="assets/img/trabalhadores/Captura de tela 2024-11-27 144848.png" alt="nossos eventos">
+                
+                <img class="img-galeria" src="assets/img/trabalhadores/Captura de tela 2024-11-27 144932.png" alt="doçes maravilhosos">
+
+            </div>
+
+            <div class="coluna-imagens2">
+                <img class="img-galeria" src="assets/img/trabalhadores/Captura de tela 2024-11-27 144910.png" alt="nossos pratos">
+
+
+
+                <img class="img-galeria" src="assets/img/trabalhadores/Captura de tela 2024-11-27 144949.png" alt="mais pratos nossos">
+
+            </div>
+
+
+            <div class="big-scream">
+                <img src="assets/img/trabalhadores/Captura de tela 2024-11-27 144921.png" alt="cupcakes">
+
+            </div>
+
+            
+           
+
+          
+        
+        </div>
+    </div>
+        
+
+   
+
+                
+        
+        
+        
+             
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+    <footer class="rodape">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col col-md-4">
+                    <div class="container-md">
+                        <section class="departamentos">
+                            <ul>
+                                <li class="departamento-titulo">Departamentos</li>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="servicos.html">serviços</a></li>
+                                <li><a href="galeria.html">galeria</a></li>
+                                <li><a href="contato.html">contato</a></li>
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+
+                <div class="col col-md-4">
+                    <section class="area-logo-rodape">
+                        <div class="area-logo-item-rodape"><img src="assets/img/logo.png"
+                                alt="Logotipo da Sweet Planet"></div>
+                    </section>
+                </div>
+
+                <div class="col col-md-4">
+                    <div class="icon-rodape">
+                        <ul class="">
+                            <li><img src="assets/img/icons/zap.png" alt="whatsapp" /></li>
+                            <li><img src="assets/img/icons/insta.png" alt="instagram" /></li>
+                            <li><img src="assets/img/icons/facebook.png" alt="instagram" /></li>
+                            <li><img src="assets/img/icons/tiktok.png" alt="instagram" /></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </footer>
+
+</body>
+
+</html>

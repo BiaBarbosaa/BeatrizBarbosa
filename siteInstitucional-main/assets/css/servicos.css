@@ -1,0 +1,426 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+    background-color: #fdc6d6;
+}
+@font-face{
+    font-family: Poppins-Regular;
+    src: url(Poppins-Regular.ttf);
+}
+.poppins{
+   font-family: "Poppins", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+.barra-superior{
+    width: 100%;
+    height: 48px;
+    background-color: rgb(251, 255, 255);
+    overflow-x: hidden;
+}
+.barra-superior p{
+    color: #ef3167;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;    
+}
+.cabecalho{
+    width: 100%;
+    height: 200px;
+    background-color: #ef3167;
+}
+.area-logo{
+    width: 10%;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+}
+.area-logo-item img{
+    width: 700%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;  
+}
+header{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    margin-left: auto;   
+}
+.icon ul{
+display:flex;
+list-style: none;
+}
+.icon ul li{
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 38px;
+    margin-block-end: 30px;
+    
+}
+.barra-pesquisa {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    max-width: 750px; 
+    margin: 20px auto; 
+    border: 1px solid #fff;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.barra-pesquisa input {
+    border: none; 
+    outline: none; 
+    padding: 10px; 
+    flex: 1; 
+}
+.barra-pesquisa button {
+    background-color: #fff ;
+    border: none; 
+    padding: 10px;
+}
+.icone-lupa {
+    width: 20px; 
+    height: auto;
+}
+
+.rodape{
+    background-color: #ef3167;
+    width: 100%;
+    height: 400px;
+}
+.texto-branco a{ 
+    text-transform: uppercase !important;
+    font-weight: bold;
+    color: #fff !important;
+
+}
+.principal{ 
+    min-height: 100dvh;
+}
+.area-logo-rodape{
+    width: 10%;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.area-logo-item-rodape img{
+    width: 700%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 850%;
+}
+.departamentos{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+       
+}
+.departamentos ul{
+    list-style: none;
+    color: #fff;
+    margin-top: 30%;  
+}
+.departamento-titulo{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.departamentos li a{
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;   
+}
+.icon-rodape{
+    margin-left: auto;    
+}
+.icon-rodape ul{
+display:flex;
+list-style: none;
+}
+.icon-rodape ul li{
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45%; 
+}
+.area-carrosel{
+    width: 80%;
+    height: 60%;
+    margin: 68px 30px 68px 30px;
+    
+    
+}
+.area-carrosel img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+ /*serviços*/
+.servicos{
+    width: 100%;
+    height: 200px;
+    background-color: #ef3167;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+.servicos h1{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center; 
+    margin: 0; 
+}
+.area-bandeira-item img{
+    width: auto;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 6%;
+}
+.container-servico-CHINA{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: -20px 100px -80px 100px;
+}
+.container-servico{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 80px 100px -55px 100px;
+}
+
+.texto-servicos{
+    margin-right: 190px;
+    margin-left: -40px;
+}
+.texto-servicos h2{
+    color: black;
+    font-weight: bold;
+    margin-top: 50px;
+    
+}
+.texto-servicos p{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.cell{
+    width: 25%;
+    height: 400px;
+   background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-radius: 8px;
+    display: flex; 
+    justify-content: center;
+    text-align: center; 
+}
+.cell img{
+    width: auto;
+    height: 300px;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+.area-tipo{
+    width: 35%;
+    height: 30px;
+    display: flex;
+    
+}
+.tipo-alimento2{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 350px;
+    margin-left: -205px;
+    /* width: 20%;
+    height: 30px;
+    background-color: rgb(98, 196, 196); */
+} 
+.tipo-alimento3{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 350px;
+    margin-left: -218px;
+    /* width: 20%;
+    height: 30px;
+    background-color: rgb(98, 196, 196); */
+}   
+    .tipo-alimento{
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 350px;
+        margin-left: -180px;
+        /* width: 20%;
+        height: 30px;
+        background-color: rgb(98, 196, 196); */
+    } 
+    .tipo-alimento-cima{
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 325px;
+        margin-left: -180px;
+        
+    } 
+
+    .tipo-alimento-cima-center{
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 325px;
+        margin-left: -215px;
+        
+    } 
+       .tipo-alimento-cima-center2{
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 325px;
+        margin-left: -200px;
+        
+    } 
+    .tipo-alimento-cima-center3{
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 325px;
+        margin-left: -230px;
+        
+    } 
+.container-produtos{   
+    width: 85%;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    gap: 5px; 
+    box-sizing: border-box;
+   background-color: rgb(255, 255, 255);
+   
+}
+.flickity-page-dots { /*tira os 3 pontinhos do slide*/
+    display: none;
+}
+.container-area-produtos-italia{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+    margin-top: -100px;
+}
+.container-area-produtos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+figure {
+    margin: 0; /* Remove margens padrão da figura */
+}
+.cell figcaption{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 5px; /* Espaço entre a imagem e o texto */
+}
+
+.container-p{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+/*seta mudança*/
+.flickity-button-icon{
+    fill: #EF3167 !important;
+    opacity: 0.5 !important;
+}
+.flickity-button {
+    background-color: #fdc6d6 !important;
+}
+.flickity-prev-next-button.previous {
+    left: -60px !important;
+}
+.flickity-prev-next-button.next {
+    right: -60px !important;
+}
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
