@@ -10,7 +10,6 @@ document.getElementById('contatoForm').addEventListener('submit', function(event
         email:email,
         mensagem:mensagem
     }
-    //endereço da API para cadastrar um objeto
     fetch('http://localhost:8081/contato',{
         method:'POST',
 

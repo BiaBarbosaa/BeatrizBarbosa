@@ -5,7 +5,7 @@ const routers = require('./routers');
 const app = express();
 
 app.use(express.json());
-app.use(cors());//biblioteca necessario para se comunicar com a web
+app.use(cors());
 app.use(routers);
 
 

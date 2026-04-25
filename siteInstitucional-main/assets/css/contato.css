@@ -29,9 +29,9 @@ h6{
     width: 100%;
     height: 200px;
     background-color: #ef3167;
-    display: flex; /* Usa flexbox para o layout */
-    align-items: center; /* Centraliza verticalmente */
-    justify-content: center; /* Centraliza horizontalmente */
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
 }
 .barra-superior p{
     color: #ef3167;
@@ -186,24 +186,6 @@ list-style: none;
     align-items: center;
     justify-content: center;
     margin-top: 45%;
-    
-    
-}
-
-
-.area-carrosel{
-    width: 80%;
-    height: 60%;
-    /*min-height: 400px;*/
-    margin: 68px 30px 68px 30px;
-    
-    
-}
-.area-carrosel img{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
 }
 
 .contato{
@@ -221,87 +203,58 @@ list-style: none;
 }
 
 /*formulario*/
-
-.formulario-body{
+.formulario-body {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-width: 100vh;
-    /*background-color: #101026;*/
+    min-height: 100vh;
 }
-.forms{
+
+.forms {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 10px 45px;
+    padding: 30px;
     background: #ef3167;
-    width: 500px; 
-    border: 56px solid #fdc6d6;
-    border-radius: 100px;
-    height: 500px;
-    /*box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;*/
+    width: 400px;
+    border-radius: 20px; 
 }
-.forms-medidas{
+.forms-medidas {
     display: flex;
     flex-direction: column;
     width: 80%;
-    
+    gap: 10px;
 }
-/**/
-div.input-single .input{
-
-    width: 100%;
-    padding: 5px;
-    border:0,
-
-}
-
-.form label{
-    color: #19f554;
-    font-size: 70px;
-    margin-bottom: 4px;
-    border-radius: 5px;
-}
-
-.form input{
-    padding: 15px;
-    outline: none;
-    border: 0;
-    margin-bottom: 20px;
-    font-size: 15px;
-    transition: all 0.5s;
-}
-.form input:focus{
-    border-radius: 106px;
-}
-.form textarea{
-    padding: 10px;
-    outline: none;
-    border: 0;
-    font-size: 15px;
-    margin-bottom: 30;
-    transition: all 0.5s;
-}
-.form textarea:focus{
-    border-radius: 16px;
-}
-.form button{
-    padding: 15px;
-    cursor: pointer;
+.forms label {
+    color: #fff;
     font-size: 16px;
+}
+.forms input,
+.forms textarea {
+    width: 100%;
+    padding: 10px 5px;
+    border: none;
+    border-bottom: 2px solid #fff; 
     background: transparent;
-    border: 2px solid #f5f5f5;
-    color: #f5f5f5;
-    transition: all 1s;
-    margin-bottom: 20px;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
 }
-.form button:houver{
-    background: #f5f5f5;
-    color:#101026;
-    border-radius: 16px;
+.forms textarea {
+    resize: none;
 }
-
+.forms button {
+    padding: 12px;
+    border-radius: 20px;
+    font-size: 16px;
+    background: #FDC6D6;
+    border: none;
+    color: #000000;
+    width: 50%;
+    height: 15%;
+    align-self: center;
+}
 .button{
     background-color: #fdc6d6;
     width: 80px;
@@ -317,7 +270,6 @@ div.input-single .input{
     color: #f5f5f5;
     position: relative;
     margin: 30px 0;
-    
 }
 .Contato{
     text-align: center;
