@@ -1,7 +1,7 @@
 body{
     margin: 0;
     overflow-x: hidden;
-    background-color: #fdc6d6;
+    background-color: #F9DCE0;
 }
 @font-face{
     font-family: Poppins-Regular;
@@ -218,8 +218,9 @@ list-style: none;
 }
 
 .texto-servicos{
-    margin-right: 190px;
-    margin-left: -40px;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .texto-servicos h2{
     color: black;
@@ -233,8 +234,11 @@ list-style: none;
     align-items: center;
     justify-content: center;    
 }
-
-
+.container-texto{
+     width: 80%;
+    height: 10%;
+    
+}
 *{
     margin: 0;
     padding: 0;
@@ -270,9 +274,7 @@ list-style: none;
     text-align: center;
     margin-top: 350px;
     margin-left: -205px;
-    /* width: 20%;
-    height: 30px;
-    background-color: rgb(98, 196, 196); */
+
 } 
 .tipo-alimento3{
     text-transform: uppercase;
@@ -281,9 +283,7 @@ list-style: none;
     text-align: center;
     margin-top: 350px;
     margin-left: -218px;
-    /* width: 20%;
-    height: 30px;
-    background-color: rgb(98, 196, 196); */
+ 
 }   
     .tipo-alimento{
         text-transform: uppercase;
@@ -292,9 +292,7 @@ list-style: none;
         text-align: center;
         margin-top: 350px;
         margin-left: -180px;
-        /* width: 20%;
-        height: 30px;
-        background-color: rgb(98, 196, 196); */
+     
     } 
     .tipo-alimento-cima{
         text-transform: uppercase;
@@ -365,13 +363,13 @@ list-style: none;
 }
 
 figure {
-    margin: 0; /* Remove margens padrão da figura */
+    margin: 0; 
 }
 .cell figcaption{
     text-transform: uppercase;
     font-weight: bold;
     font-size: 15px;
-    margin-top: 5px; /* Espaço entre a imagem e o texto */
+    margin-top: 5px; 
 }
 
 .container-p{
@@ -388,7 +386,7 @@ figure {
     opacity: 0.5 !important;
 }
 .flickity-button {
-    background-color: #fdc6d6 !important;
+    background-color: #F9DCE0 !important;
 }
 .flickity-prev-next-button.previous {
     left: -60px !important;
