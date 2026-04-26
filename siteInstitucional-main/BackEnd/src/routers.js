@@ -1,7 +1,5 @@
 const express = require('express');
 const connection = require('./db');
-const bcrypt = require('bcrypt');
-const salt = 10;
 const routers = express.Router();
 
 routers.get('/', (req, res) => {
